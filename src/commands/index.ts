@@ -14,12 +14,12 @@ export function setupCommands(bot: Telegraf<BotContext>) {
   });
 
   bot.command("help", async (ctx) => {
-    await ctx.reply(
-      `"Crypto Bot Help 💡
+    await ctx.reply(`
+      Crypto Bot Help 💡
       
-        This bot will help you manage crypto transactions.
+      This bot will help you manage crypto transactions.
 
-        More features coming soon!`
+      More features coming soon!`
     );
   });
 
